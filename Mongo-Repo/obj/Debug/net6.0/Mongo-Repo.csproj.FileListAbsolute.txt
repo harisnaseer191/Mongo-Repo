@@ -1,0 +1,12 @@
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\bin\Debug\net6.0\Mongo-Repo.deps.json
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\bin\Debug\net6.0\Mongo-Repo.dll
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\bin\Debug\net6.0\Mongo-Repo.pdb
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\obj\Debug\net6.0\Mongo-Repo.csproj.AssemblyReference.cache
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\obj\Debug\net6.0\Mongo-Repo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\obj\Debug\net6.0\Mongo-Repo.AssemblyInfoInputs.cache
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\obj\Debug\net6.0\Mongo-Repo.AssemblyInfo.cs
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\obj\Debug\net6.0\Mongo-Repo.csproj.CoreCompileInputs.cache
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\obj\Debug\net6.0\Mongo-Repo.dll
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\obj\Debug\net6.0\refint\Mongo-Repo.dll
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\obj\Debug\net6.0\Mongo-Repo.pdb
+D:\Techverx-Projs\RedisExample\Mongo-Repo\Mongo-Repo\obj\Debug\net6.0\ref\Mongo-Repo.dll
