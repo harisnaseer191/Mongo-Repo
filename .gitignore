@@ -1,0 +1,18 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# IDEs and editors
+.vs/
+obj/
+bin/
+Logs
+aspnet-core/src/Techverx.PostalMethod.Web.Host/App_Data/Logs/
+aspnet-core/src/Techverx.PostalMethod.Web.Mvc/App_Data/Logs/
+aspnet-core/src/Techverx.PostalMethod.Migrator/Logs/Logs.txt
+node/node_modules
+node/*.png
+
+appsettings.json
+appsettings.Staging.json
+
+**/appsettings.json
+**/appsettings.Staging.json
