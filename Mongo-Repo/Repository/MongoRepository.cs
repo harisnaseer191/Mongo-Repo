@@ -24,10 +24,11 @@ namespace Mongo_Repo.Repository
 
         private protected string GetCollectionName(Type documentType)
         {
-            return ((BsonCollectionAttribute)documentType.GetCustomAttributes(
+            var res = ((BsonCollectionAttribute)documentType.GetCustomAttributes(
                     typeof(BsonCollectionAttribute),
                     true)
-                .FirstOrDefault()).CollectionName;
+                .FirstOrDefault());
+                return res != null ? res.CollectionName : documentType.Name;
         }
 
         public virtual IQueryable<TDocument> AsQueryable()
