@@ -26,7 +26,7 @@ namespace Mongo_Repo.Repository
             }
             else
             {
-                _collection = collection;
+                _collection = collection; // Used for unit testing
             }
         }
 
