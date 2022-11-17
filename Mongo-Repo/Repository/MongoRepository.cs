@@ -16,10 +16,18 @@ namespace Mongo_Repo.Repository
     {
         private readonly IMongoCollection<TDocument> _collection;
 
-        public MongoRepository(IAcquireMongoClient settings)
+        public MongoRepository(IAcquireMongoClient settings,IMongoCollection<TDocument>? collection =null)
         {
-            var database = new MongoClient(settings.ConnectionString).GetDatabase(settings.DatabaseName);
-            _collection = database.GetCollection<TDocument>(GetCollectionName(typeof(TDocument)));
+            if (collection is null)
+            {
+                var database = new MongoClient(settings.ConnectionString).GetDatabase(settings.DatabaseName);
+                _collection = database.GetCollection<TDocument>(GetCollectionName(typeof(TDocument)));
+
+            }
+            else
+            {
+                _collection = collection;
+            }
         }
 
         private protected string GetCollectionName(Type documentType)
